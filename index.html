@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    <title>Números Aleatórios</title>
+  </head>
+  <body>
+        <nav class="nav-menu">
+            <span class="span-titulo">GERADOR DE NÚMEROS ALEATÓRIOS</span>
+        </nav>
+
+
+        <div id="container-info">
+            <div id="conteudo-info">
+                
+                <p>Para usar o gerador de números aleatórios, siga estes procedimentos:</p>
+
+                <ol>
+                    <li>Defina o tipo de jogo que deseja jogar;</li>
+                    <li>Informe a quantidade de dezenas, de acordo com o tipo de jogo;</li>
+                    <li>Clique no botão Gerar Números.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="conteudo-1">
+                <div class="form-group">
+                    <label>Tipo de Jogo:</label>
+                    <select name="selectTipoJogo" id="selectTipoJogo">
+                        <option value="mega_sena">MEGA SENA</option>
+                        <option value="quina">QUINA</option>
+                        <option value="dupla_sena">DUPLA SENA</option>
+                        <option value="lotomania">LOTOMANIA</option>
+                        <option value="lotofacil">LOTOFÁCIL</option>
+                    </select>
+                </div>
+
+                <div class="form-group" id="groupQtdDezenas">
+                    <label>Qtde Dezenas:</label>
+                    <select name="selectQtdeDezenas" id="selectQtdeDezenas">
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">16</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+
+                <div class="div-btn-gerar-numeros">
+                    <button id="btnGerarNumeros">Gerar Números</button>
+                </div>
+            </div>
+
+            <div id="conteudo-2">
+                <div class="numeros">0</div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="js/script_numeros_aleatorios.js"></script>
+  </body>
+</html>

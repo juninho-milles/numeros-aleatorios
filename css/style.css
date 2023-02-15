@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap');
+
+body {
+    font-family: 'Marvel', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #92a69e;
+}
+
+.nav-menu {
+    height: 55px;
+    width: 100%;
+    background-color: #151b26;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-info {
+    display: flex;
+    justify-content: center;
+}
+
+#conteudo-info {
+    width: 76%;
+    color: #212529;
+    margin-top: 15px;
+    border: 1px solid #0f2226;
+    border-radius: 5px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #151b26;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#conteudo-1 {
+    height: 240px;
+    width: 36%;
+    background-color: #ffffff;
+    border: 1px solid #0f2226;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+}
+
+#conteudo-2 {
+    width: 40%;
+    background-color: #ffffff;
+    border: 1px solid #0f2226;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.numeros {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #92a69e;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #02590f;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.form-group {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.form-group > label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-group > select {
+    width: 75%;
+    height: 27px;
+    border-radius: 5px;
+    color: #151b26;
+    border: none;
+    border: 1px solid #92a69e;
+    cursor: pointer;
+}
+
+.div-btn-gerar-numeros {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.div-btn-gerar-numeros > button {
+    padding: 10px 16px 10px 16px;
+    color: #FFFFFF;
+    background-color: #8c1b2f;
+    border: 1px solid #d96c80;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div-btn-gerar-numeros > button:active {
+    background-color: #d96c80;
+    border: 1px solid #8c1b2f;
+    cursor: pointer;
+}
